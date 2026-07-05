@@ -1,0 +1,15 @@
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Machine-specific
+local.properties
+.claude/
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+.kotlin/
+captures/

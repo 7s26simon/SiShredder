@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shredder body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,40 L78,40 A4,4 0 0 1 82,44 L82,52 A4,4 0 0 1 78,56 L30,56 A4,4 0 0 1 26,52 L26,44 A4,4 0 0 1 30,40 Z" />
+    <!-- Paper going in -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M40,26 L68,26 L68,40 L40,40 Z" />
+    <!-- Shredded strips -->
+    <path android:fillColor="#FFFFFF" android:pathData="M36,56 L40,56 L40,74 L36,74 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M45,56 L49,56 L49,80 L45,80 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M54,56 L58,56 L58,72 L54,72 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M63,56 L67,56 L67,78 L63,78 Z" />
+</vector>

@@ -123,8 +123,17 @@ fun PermissionScreen(onRequest: () -> Unit) {
                     "“All files access”.",
                 style = MaterialTheme.typography.bodyMedium,
             )
+            Spacer(Modifier.height(16.dp))
+            Text(
+                "For security and research use only. Erasure is permanent and " +
+                    "irreversible. Provided with no warranty and entirely at your own risk " +
+                    "and legal responsibility; only erase data you own or are authorized to " +
+                    "erase. See the DISCLAIMER and LICENSE in the project repository.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
             Spacer(Modifier.height(24.dp))
-            Button(onClick = onRequest) { Text("Grant access") }
+            Button(onClick = onRequest) { Text("I understand, grant access") }
         }
     }
 }

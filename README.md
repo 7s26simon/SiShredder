@@ -4,6 +4,14 @@ A secure file eraser for Android, inspired by [Shreddit](https://apps.palmtronix
 Permanently destroys files by overwriting their contents with industry-standard
 sanitization patterns before deletion, so they can't be recovered with undelete tools.
 
+> **For security and research use only.** This project is provided strictly for
+> lawful information-security, data-privacy, and research purposes. Data erasure
+> is permanent and irreversible. The Software is provided with no warranty, and
+> the author accepts no responsibility or liability for anything done with it:
+> use is entirely at your own risk and your own legal responsibility. By using,
+> building, or installing it you accept the full [DISCLAIMER](DISCLAIMER.md) and
+> the [LICENSE](LICENSE). This is not legal advice.
+
 ## Features
 
 - **File browser** for shared storage with image/video thumbnails, folder navigation,
